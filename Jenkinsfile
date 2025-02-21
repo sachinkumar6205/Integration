@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // GitHub repository se code checkout karein
-                git 'https://github.com/your-repo-url.git'
+                git 'https://github.com/sachinkumar6205/Integration.git'
             }
         }
 
